@@ -1,6 +1,7 @@
 {
   "name": "jb-portfolio",
   "version": "0.1.0",
+  "homepage": "https://bull1588.github.io",
   "private": true,
   "dependencies": {
     "@heroicons/react": "^1.0.5",
