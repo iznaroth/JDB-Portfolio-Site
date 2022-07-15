@@ -8,12 +8,12 @@ export const projects = [
     link: "broken",
   },
   {
-    title: ".planetcracker",
-    subtitle: "Godot & GDScript",
+    title: "The Industrizer",
+    subtitle: "Java & Minecraft FORGE",
     description:
-      "A game about a great big ship splitting planets in two, and the poor crew tasked with managing it. A large fusion of text adventure and space roguelite.",
-    image: "./planetcracker.gif",
-    link: "broken",
+      "A mindbendingly complex automation mod for Minecraft, involving interlocked processing chains, weird sidequests and tons of market manipulation.",
+    image: "./industrizer.png",
+    link: "industrizer",
   },
   {
     title: "Recordkeeper",
@@ -24,11 +24,11 @@ export const projects = [
     link: "broken",
   },
   {
-    title: "Dayride",
-    subtitle: "Unreal & C++",
+    title: "Project Nightride",
+    subtitle: "Unity & C#",
     description:
-      "A little game about riding a quad-cycle through a strange desert, collecting information and playing minigames with a cast of unusual characters.",
-    image: "./dayride.gif",
+      "A game about nighttime roadtrips and weird Americana. Uses a topographic scan of the Badlands National Park as the basis for a seamless open world.",
+    image: "./nightride.png",
     link: "broken",
   },
 ];
