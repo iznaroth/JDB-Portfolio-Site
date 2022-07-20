@@ -4,8 +4,8 @@ export const projects = [
     subtitle: "Unity & C#",
     description:
       "A metroidvania about a weird fellow in a strange cave, featuring numerous abilities and a large map. My largest project, involving over 50 unique scripts across many systems.",
-    image: "./brittlesitegif01.gif",
-    link: "broken",
+    image: "./brittle.png",
+    link: "brittle",
   },
   {
     title: "The Industrizer",
@@ -20,8 +20,8 @@ export const projects = [
     subtitle: "Python & Discord.py",
     description:
       "A custom built bot for the IM platform Discord, used to facilitate a large Table-Top Role Playing Game with more than thirty players. Employs a large SQLite database.",
-    image: "./recordkeeper.gif",
-    link: "broken",
+    image: "./recordkeeper_snip.png",
+    link: "recordkeeper",
   },
   {
     title: "Project Nightride",
@@ -29,7 +29,7 @@ export const projects = [
     description:
       "A game about nighttime roadtrips and weird Americana. Uses a topographic scan of the Badlands National Park as the basis for a seamless open world.",
     image: "./nightride.png",
-    link: "broken",
+    link: "nightride",
   },
 ];
 

@@ -1,24 +1,24 @@
-// src/components/Industrizer.js
+// src/components/Nightride.js
 
 import React from "react";
 import { ChevronDoubleLeftIcon } from "@heroicons/react/solid";
 
-export default function Industrizer() {
+export default function Nightride() {
   return (
-   <section id="industrizer">
+   <section id="nightride">
     <a href = "/">
       <ChevronDoubleLeftIcon className="absolute w-16 mt-4 ml-4" />
     </a>
     <div className="container mx-auto align-items-center">
         <img
-          className="block mx-auto py-12 object-cover object-center"
+          className="block mx-auto py-16 px-40 object-cover object-center"
           alt="hero"
-          src="./placeholder_banner.png"
+          src="./project_nightride_banner.png"
         />
         <p className="mb-8 leading-relaxed px-60 text-center">
-            Production chains and optimization strains - The Industrizer is a minecraft mod that acts more like a game-within-a-game. As it is now, the mod adds a host of complicated machines, a 
-            fully reactive self-adjusting resource market, several antagonistic forces to hinder your progress, and a convoluted system of mechanical and narrative progression to 
-            tie it all together. Can you hack it as the latest in a long-line of multiversal tech-barons?
+            Vehicle repair and navigational despair - what makes up a good open-world adventure game? In Project Nightride, you're lost in an expansive rendition
+            of the South Dakotan badlands - enshrouded in perpetual dark and aided only by the tools you can find. Meet some strangers, collect some stories,
+            maybe even do a little exploring. No promises you'll like what you find out there, though...
           </p>
       <div className="container mx-auto flex px-40 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">

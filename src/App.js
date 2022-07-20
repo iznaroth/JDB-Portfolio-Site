@@ -20,6 +20,7 @@ import Cprojects from "./components/Cprojects";
 import Skills from "./components/Skills";
 import Testimonials from "./components/Testimonials";
 import Industrizer from './components/Industrizer';
+import Nightride from './components/Nightride';
 
 function App() {
   return (
@@ -42,8 +43,11 @@ function App() {
           </Fragment>
         }>
         </Route>
-        <Route path = "/nightride">
-          
+        <Route path = "/nightride" element = {
+          <Fragment>
+            <Nightride />
+          </Fragment>
+        }>
         </Route>
         <Route path = "/recordkeeper">
           

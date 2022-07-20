@@ -14,7 +14,7 @@ export default function Projects() {
             Personal Projects
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            A sampling of my personal projects over the past few years. Hover over them to learn more!
+            A sampling of my personal projects over the past few years. Click them to learn more!
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
