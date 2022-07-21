@@ -42,7 +42,7 @@ export default function Industrizer() {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="./render-wraparound-ew.png"
+            src="./placeholder.png"
           />
         </div>
       </div>
@@ -74,7 +74,7 @@ export default function Industrizer() {
           <img
             className="relative object-cover object-center rounded mr-0"
             alt="hero"
-            src="./render-wraparound-ew.png"
+            src="./placeholder.png"
           />
         </div>
       </div>

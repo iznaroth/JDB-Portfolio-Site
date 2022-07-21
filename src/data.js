@@ -40,7 +40,7 @@ export const cprojects = [
     description:
       "A set of simulators built on a custom instruction set, derived from MIPS R2000 architecture. Explored single and multicycle as well as caching.",
     image: "./asm.png",
-    link: "broken",
+    link: "",
   },
   {
     title: "OS Filesystem Explorer",
@@ -48,7 +48,7 @@ export const cprojects = [
     description:
       "A graphic file explorer formatted as a visual tree with filetype icons, support for opening most common types, scrolling and concatenation.",
     image: "./verzeichnisse_baum.png",
-    link: "broken",
+    link: "",
   },
   {
     title: "OS Process Scheduler",
@@ -56,7 +56,7 @@ export const cprojects = [
     description:
       "A program that mimicked the operating system's process scheduler, employing various standard methods like Round Robin and FCFS.",
     image: "./queuing_diagram.jpg",
-    link: "broken",
+    link: "",
   },
   {
     title: "Classy-Schedule Database",
@@ -64,7 +64,7 @@ export const cprojects = [
     description:
       "For my Senior Capstone, I was placed on the Database team for Classy-Schedule, an interactive class scheduling app.",
     image: "./create_diagram_for_db_object.png",
-    link: "broken",
+    link: "",
   },
 ];
 
