@@ -21,6 +21,8 @@ import Skills from "./components/Skills";
 import Testimonials from "./components/Testimonials";
 import Industrizer from './components/Industrizer';
 import Nightride from './components/Nightride';
+import Recordkeeper from './components/Recordkeeper';
+import Brittle from './components/Brittle';
 
 function App() {
   return (
@@ -49,10 +51,18 @@ function App() {
           </Fragment>
         }>
         </Route>
-        <Route path = "/recordkeeper">
+        <Route path = "/recordkeeper" element = {
+          <Fragment>
+            <Recordkeeper />
+          </Fragment>
+        }>
           
         </Route>
-        <Route path = "/brittle">
+        <Route path = "/brittle" element = {
+          <Fragment>
+            <Brittle />
+          </Fragment>
+        }>
           
         </Route>
 

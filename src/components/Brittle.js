@@ -11,9 +11,9 @@ export default function Recordkeeper() {
     </a>
     <div className="container mx-auto align-items-center">
         <img
-          className="block mx-auto py-12 object-cover object-center"
+          className="block mx-auto py-16 px-40 object-cover object-center"
           alt="hero"
-          src="./placeholder_banner.png"
+          src="./brittle_banner.png"
         />
         <p className="mb-8 leading-relaxed px-60 text-center">
             Deep spelunking and save-error debunking - Brittle is an unusual metroidvania with a deeply-customizable loadout system and an enormous, seamless map. Pull off crazy chain-combos,
@@ -39,9 +39,9 @@ export default function Recordkeeper() {
         </div>
         <div className="mr-0">
           <img
-            className="object-cover object-center rounded"
+            className="w-96 object-cover object-center rounded"
             alt="hero"
-            src="./render-wraparound-ew.png"
+            src="./brittle01.png"
           />
         </div>
       </div>
@@ -69,9 +69,9 @@ export default function Recordkeeper() {
         </div>
         <div className="m">
           <img
-            className="relative object-cover object-center rounded mr-0"
+            className="relative w-96 object-cover object-center rounded mr-0"
             alt="hero"
-            src="./render-wraparound-ew.png"
+            src="./brittle02.png"
           />
         </div>
       </div>

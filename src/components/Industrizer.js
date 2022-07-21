@@ -11,9 +11,9 @@ export default function Industrizer() {
     </a>
     <div className="container mx-auto align-items-center">
         <img
-          className="block mx-auto py-12 object-cover object-center"
+          className="block mx-auto py-16 px-40 object-cover object-center"
           alt="hero"
-          src="./placeholder_banner.png"
+          src="./industrizer_banner.png"
         />
         <p className="mb-8 leading-relaxed px-60 text-center">
             Production chains and optimization strains - The Industrizer is a minecraft mod that acts more like a game-within-a-game. As it is now, the mod adds a host of complicated machines, a 

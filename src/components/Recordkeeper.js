@@ -11,9 +11,9 @@ export default function Recordkeeper() {
     </a>
     <div className="container mx-auto align-items-center">
         <img
-          className="block mx-auto py-12 object-cover object-center"
+          className="block mx-auto py-16 px-40 object-cover object-center"
           alt="hero"
-          src="./placeholder_banner.png"
+          src="./recordkeeper_banner.png"
         />
         <p className="mb-8 leading-relaxed px-60 text-center">
             Character creation and data serialization - Recordkeeper is a bot for the Discord messaging platform, employing a precisely-tuned SQLite database to maintain
@@ -40,9 +40,9 @@ export default function Recordkeeper() {
         </div>
         <div className="mr-0">
           <img
-            className="object-cover object-center rounded"
+            className="w-96 object-cover object-center rounded"
             alt="hero"
-            src="./render-wraparound-ew.png"
+            src="./recordkeeper_characters.png"
           />
         </div>
       </div>
@@ -68,13 +68,13 @@ export default function Recordkeeper() {
         </div>
         <div className="m">
           <img
-            className="relative object-cover object-center rounded mr-0"
+            className="w-96 object-cover object-center rounded"
             alt="hero"
-            src="./render-wraparound-ew.png"
+            src="./recordkeeper_stats.png"
           />
         </div>
       </div>
     </div>
    </section>
- );
+ ); //IMG ATTRIBUTIONS: Stats -> https://mykindofmeeple.com/how-to-roll-stats-in-dnd-pros-cons/
 }
