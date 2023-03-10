@@ -56,9 +56,10 @@ export default function Recordkeeper() {
           <p className="mb-8 leading-relaxed">
             A core part of Brittle's experience is freedom of approach, which means I need to design around many different routes to the exit. That means that it isn't quite as cut-and-dry as 
             saving a bunch of on-off flags. Well, it still is at the end of the day, but the logic that decides how those 1s and 0s flip is a bit more elaborate than that.
-            Most games use some kind-of singleton Gamemaster to keep things running in a logically clean manner, but Brittle also uses a Savemaster to make sure that whenever the player
-            sets a big flag, that any unexpected consequences (say, a necessary prevention flag for acquiring an ability early) is tripped as well. The Savemaster
-            analyzes a lot of conditionals, which is messy, so it's gotta be well documented.
+            Most games use some kind-of singleton Gamemaster to keep things running in a logically clean manner, but Brittle also uses a WorldstateMaster to make sure that whenever the player
+            sets a big flag, that any unexpected consequences (say, a necessary prevention flag for acquiring an ability early) is tripped as well. The WorldstateMaster
+            analyzes a lot of conditionals, which is messy, so it's gotta be well documented. This becomes doubly-important when the question of a reactive world is posed - are there any faulty
+            conditional pairs - dialogue that makes no sense with context, or blockages that erroneously appear? Designing a Metroidvania is all about diligence and consistency.
             <br></br><br></br>
             This is the lower-layer consequence of desigining around broad possibilities. Any time I want to add a room, obstacle or fight, I need to consider what it means
             to players at different points (or on different routes) of the game. Knowing that they could arrive in each room for the first time at a very different moment than 
@@ -71,7 +72,7 @@ export default function Recordkeeper() {
           <img
             className="relative w-96 object-cover object-center rounded mr-0"
             alt="hero"
-            src="./brittle02.png"
+            src="./brittle_mapshot.png"
           />
         </div>
       </div>

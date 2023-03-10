@@ -8,12 +8,12 @@ export const projects = [
     link: "brittle",
   },
   {
-    title: "The Industrizer",
+    title: "Manic Mechanics",
     subtitle: "Java & Minecraft FORGE",
     description:
       "A mindbendingly complex automation mod for Minecraft, involving interlocked processing chains, weird sidequests and tons of market manipulation.",
-    image: "./industrizer.png",
-    link: "industrizer",
+    image: "./manicmechanics.png",
+    link: "manmech",
   },
   {
     title: "Recordkeeper",

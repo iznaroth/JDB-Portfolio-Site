@@ -19,7 +19,7 @@ import Projects from "./components/Projects";
 import Cprojects from "./components/Cprojects";
 import Skills from "./components/Skills";
 import Testimonials from "./components/Testimonials";
-import Industrizer from './components/Industrizer';
+import ManicMechanics from './components/ManicMechanics';
 import Nightride from './components/Nightride';
 import Recordkeeper from './components/Recordkeeper';
 import Brittle from './components/Brittle';
@@ -39,9 +39,9 @@ function App() {
         </Fragment>}>
           
         </Route>
-        <Route path = "/industrizer" element = {
+        <Route path = "/manmech" element = {
           <Fragment>
-            <Industrizer />
+            <ManicMechanics />
           </Fragment>
         }>
         </Route>
