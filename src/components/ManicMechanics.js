@@ -18,7 +18,28 @@ export default function Industrizer() {
         <p className="mb-8 leading-relaxed px-60 text-center">
             Production chains and optimization strains - Manic Mechanics is a minecraft mod paced for both solo progression and cross compatibility. The mod is designed around a
             player-driven resource economy, influence from competitors and rivals, tons of convoluted processing chains, and a terribly overwrought story to tie it all together. Can you hack it as the latest in a long-line of multiversal tech-barons?
-          </p>
+        </p>
+
+        <div className="container mx-auto flex px-40 py-8 md:flex-row flex-col items-center justify-center">
+          <img
+            className="relative h-20 object-cover object-center mr-0"
+            alt="An arrow pointing at a github link, with text reading 'Check out the code!'"
+            src="./horrible indicator 1.png"
+          />
+          <a href = "https://github.com/iznaroth/ManicMechanics" target="_blank" rel="noreferrer">
+          <img
+            className="relative h-20 object-cover object-center mr-0 px-4 pr-12"
+            alt="An image of the Github logo. It links to the Manic Mechanics repository."
+            src="./github-mark-white.svg"
+          />
+          </a>
+          <img
+            className="relative h-20 object-cover object-center mr-0"
+            alt="An image of the CurseForge logo, with text reading 'curseforge coming soon...'"
+            src="./horrible indicator 2.png"
+          />
+        </div>
+
       <div className="container mx-auto flex px-40 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
@@ -36,7 +57,7 @@ export default function Industrizer() {
             to standardize the process of Minecraft mod development. As a community project, documentation and consistent guides are rare, so a lot of my learning happens in
             public GitHub repositories for other Forge mods. It's done a lot to sharpen my existing-project adaptation speed. 
             <br /><br />
-            (...and guess what! That means cross-compatibility. Some of the items in this screenshot are from the legendary tech mod Mekanism - check it out here: https://www.curseforge.com/minecraft/mc-mods/mekanism)
+            (...and guess what! That means cross-compatibility. Some of the items in this screenshot are from the legendary tech mod Mekanism - check it out <a href="https://www.curseforge.com/minecraft/mc-mods/mekanism" target="_blank" rel="noreferrer" class="text-white">here!</a>)
           </p>
         
         </div>

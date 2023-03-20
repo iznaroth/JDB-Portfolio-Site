@@ -18,7 +18,14 @@ export default function Recordkeeper() {
         <p className="mb-8 leading-relaxed px-60 text-center">
             Deep spelunking and save-error debunking - Brittle is an unusual metroidvania with a deeply-customizable loadout system and an enormous, seamless map. Pull off crazy chain-combos,
             solve esoteric puzzles and get hopelessly lost underground in this mad subterranean scramble.
-          </p>
+        </p>
+        <div className="container mx-auto flex px-40 py-8 md:flex-row flex-col items-center justify-center">
+          <img
+            className="relative h-20 object-cover object-center mr-0"
+            alt="An crude recreation of the itch.io logo, with text reading 'itch demo soon!'"
+            src="./horrible indicator 3.png"
+          />
+        </div>
       <div className="container mx-auto flex px-40 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
