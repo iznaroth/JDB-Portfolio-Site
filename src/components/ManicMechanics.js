@@ -29,13 +29,13 @@ export default function Industrizer() {
           <a href = "https://github.com/iznaroth/ManicMechanics" target="_blank" rel="noreferrer">
           <img
             className="relative h-20 object-cover object-center mr-0 px-4 pr-12"
-            alt="An image of the Github logo. It links to the Manic Mechanics repository."
+            alt="The Github logo. It links to the Manic Mechanics repository."
             src="./github-mark-white.svg"
           />
           </a>
           <img
             className="relative h-20 object-cover object-center mr-0"
-            alt="An image of the CurseForge logo, with text reading 'curseforge coming soon...'"
+            alt="A crudely-drawn CurseForge logo, with text reading 'curseforge coming soon...'"
             src="./horrible indicator 2.png"
           />
         </div>
