@@ -3,30 +3,30 @@
 import React from "react";
 import { ChevronDoubleLeftIcon } from "@heroicons/react/solid";
 
-export default function Recordkeeper() {
+export default function Brittle() {
   return (
-   <section id="Recordkeeper">
-    <a href = "/">
-      <ChevronDoubleLeftIcon className="absolute w-16 mt-4 ml-4" />
-    </a>
-    <div className="container mx-auto align-items-center">
+   <section id="Brittle" className="w-full h-full m-0 p-0 overflow-x-hidden">
+    <div className="container mx-auto align-items-center md:shrink-0">
+        <a href = "/">
+        <ChevronDoubleLeftIcon className="fixed w-16 mt-2 ml-4" />
+        </a>
         <img
-          className="block mx-auto py-16 px-40 object-cover object-center"
+          className="block mx-auto lg:py-16 lg:px-40 py-4 px-4 object-cover object-center"
           alt="hero"
           src="./brittle_banner.png"
         />
-        <p className="mb-8 leading-relaxed px-60 text-center">
+        <p className="mb-8 leading-relaxed lg:px-60 px-4 py-4 text-center">
             Deep spelunking and save-error debunking - Brittle is an unusual metroidvania with a deeply-customizable loadout system and an enormous, seamless map. Pull off crazy chain-combos,
             solve esoteric puzzles and get hopelessly lost underground in this mad subterranean scramble.
         </p>
-        <div className="container mx-auto flex px-40 py-8 md:flex-row flex-col items-center justify-center">
+        <div className="container mx-auto flex lg:px-40 py-8 md:flex-row flex-col items-center justify-center">
           <img
             className="relative h-20 object-cover object-center mr-0"
             alt="An crude recreation of the itch.io logo, with text reading 'itch demo soon!'"
             src="./horrible indicator 3.png"
           />
         </div>
-      <div className="container mx-auto flex px-40 py-20 md:flex-row flex-col items-center">
+      <div className="container mx-auto flex lg:px-40 lg:py-20 px-4 py-4 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Ol' Reliable
@@ -54,7 +54,7 @@ export default function Recordkeeper() {
       </div>
 
 
-      <div className="container mx-auto flex px-40 py-20 md:flex-row-reverse flex-col items-center">
+      <div className="container mx-auto flex lg:px-40 lg:py-20 px-4 py-4 md:flex-row-reverse flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white ">
             Spinning Plates, Tracking States

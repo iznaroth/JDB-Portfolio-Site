@@ -7,20 +7,20 @@ export default function Recordkeeper() {
   return (
    <section id="Recordkeeper">
     <a href = "/">
-      <ChevronDoubleLeftIcon className="absolute w-16 mt-4 ml-4" />
+        <ChevronDoubleLeftIcon className="fixed w-16 mt-2 ml-4" />
     </a>
     <div className="container mx-auto align-items-center">
         <img
-          className="block mx-auto py-16 px-40 object-cover object-center"
+          className="block mx-auto lg:py-16 lg:px-40 py-4 px-4 object-cover object-center"
           alt="hero"
           src="./recordkeeper_banner.png"
         />
-        <p className="mb-8 leading-relaxed px-60 text-center">
+        <p className="lg:mb-8 leading-relaxed lg:px-60 px-4 py-4 text-center">
             Character creation and data serialization - Recordkeeper is a bot for the Discord messaging platform, employing a precisely-tuned SQLite database to maintain
             characters, abilities, stories and more for a variety of TTRPG systems. Everything from the character you play to the places you take them can be stored, archived, and referenced for a smooth experience.
             Waste less time bookkeeping, spend more time dungeoneering!
           </p>
-      <div className="container mx-auto flex px-40 py-20 md:flex-row flex-col items-center">
+      <div className="container mx-auto flex lg:px-40 lg:py-20 px-4 py-4 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Multi-User Madness
@@ -48,7 +48,7 @@ export default function Recordkeeper() {
       </div>
 
 
-      <div className="container mx-auto flex px-40 py-20 md:flex-row-reverse flex-col items-center">
+      <div className="container mx-auto flex lg:px-40 lg:py-20 px-4 py-4 md:flex-row-reverse flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white ">
             In a Post-Pathfinder World

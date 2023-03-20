@@ -7,28 +7,28 @@ export default function Industrizer() {
   return (
    <section id="manmech">
     <a href = "/">
-      <ChevronDoubleLeftIcon className="absolute w-16 mt-4 ml-4" />
+        <ChevronDoubleLeftIcon className="fixed w-16 mt-2 ml-4" />
     </a>
     <div className="container mx-auto align-items-center">
         <img
-          className="block mx-auto py-16 px-40 object-cover object-center"
+          className="block mx-auto lg:py-16 lg:px-40 px-4 py-4 object-cover object-center"
           alt="hero"
           src="./manmech_bannerv2.png"
         />
-        <p className="mb-8 leading-relaxed px-60 text-center">
+        <p className="mb-8 leading-relaxed lg:px-60 px-4 py-4 text-center">
             Production chains and optimization strains - Manic Mechanics is a minecraft mod paced for both solo progression and cross compatibility. The mod is designed around a
             player-driven resource economy, influence from competitors and rivals, tons of convoluted processing chains, and a terribly overwrought story to tie it all together. Can you hack it as the latest in a long-line of multiversal tech-barons?
         </p>
 
-        <div className="container mx-auto flex px-40 py-8 md:flex-row flex-col items-center justify-center">
+        <div className="container mx-auto flex lg:px-40 lg:py-8 py-0 md:flex-row flex-col items-center justify-center">
           <img
-            className="relative h-20 object-cover object-center mr-0"
+            className="relative lg:h-20 object-cover object-center mr-0 lg:flex invisible hidden"
             alt="An arrow pointing at a github link, with text reading 'Check out the code!'"
             src="./horrible indicator 1.png"
           />
           <a href = "https://github.com/iznaroth/ManicMechanics" target="_blank" rel="noreferrer">
           <img
-            className="relative h-20 object-cover object-center mr-0 px-4 pr-12"
+            className="relative lg:h-20 object-cover object-center mr-0 px-4 pr-12 lg:py-0 py-5"
             alt="The Github logo. It links to the Manic Mechanics repository."
             src="./github-mark-white.svg"
           />
@@ -40,7 +40,7 @@ export default function Industrizer() {
           />
         </div>
 
-      <div className="container mx-auto flex px-40 py-20 md:flex-row flex-col items-center">
+      <div className="container mx-auto flex lg:px-40 lg:py-20 px-4 py-4 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             The factory must grow...
@@ -71,7 +71,7 @@ export default function Industrizer() {
       </div>
 
 
-      <div className="container mx-auto flex px-40 py-20 md:flex-row-reverse flex-col items-center">
+      <div className="container mx-auto flex lg:px-40 lg:py-20 px-4 py-4 md:flex-row-reverse flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white ">
             Coexisting & Innovating
